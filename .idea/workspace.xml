@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d264589c-12f1-40f2-9035-daa645af2a54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-light-300.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-light-300.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-light-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-light-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-light-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-light-300.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-light-300.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-light-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-light-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-light-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/choose-wallet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/style-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/style-update.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/style2a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/style3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/style4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/style5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/style6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/css/stylehd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/UTM Americana.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/UTM AmericanaB.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/UTM AmericanaBEx.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/UTM AmericanaItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/COT Website (1).xd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/air.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/anh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/bank.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/cot1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/cot11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/cot1111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/cot2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/cot2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/cot22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/ebay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/img-slider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/img1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/momo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/vie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/viettel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/vn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/images/zalo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asset/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/LOGON1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ao-khoac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/import-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/no-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-1.11.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/lumino.glyphs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/cac-giao-dich-cua-ban.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/cai-dat.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/doi-mat-khau.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/gd-ban.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/gd-mua.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/gd-nap-tien.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/gd-quan-ly.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/gd-rut-tien.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/gd-tao-ban.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/layouts/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/layouts/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/layouts/sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/login-shop.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/business/thong-tin-tai-khoan.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/city.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/about.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/cac-buoc-tao-tai-khoan.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/dang-nhap.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/layouts/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/layouts/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/vai-dieu-ve-chung-toi.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/cac-giao-dich-cua-ban.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/cai-dat.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/doi-mat-khau.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/gd-ban.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/gd-mua.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/gd-nap-tien.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/gd-quan-ly.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/gd-rut-tien.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/gd-tao-ban.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/layouts/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/layouts/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/layouts/sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/login-shop.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/thong-tin-tai-khoan.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>strict</find>
+      <find>dynamic</find>
+      <find>.blade.php</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DynamicDependent.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DynamicDependentController.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/about.html" />
+        <option value="$PROJECT_DIR$/resources/views/pages/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/layouts/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/cac-buoc-tao-tai-khoan.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/dang-nhap.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/vai-dieu-ve-chung-toi.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/cai-dat.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/doi-mat-khau.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/gd-mua.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/gd-nap-tien.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/gd-quan-ly.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/gd-rut-tien.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/login-shop.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/thong-tin-tai-khoan.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/gd-ban.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/layouts/header.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/layouts/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/cac-giao-dich-cua-ban.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/layouts/master.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="131" />
+    <option name="y" value="4" />
+    <option name="width" value="1189" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../krioy" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\business" />
+      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\user" />
+      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\pages" />
+      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\admin" />
+      <recent name="C:\xampp\htdocs\COT-PAY\public\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\pages\layouts" />
+      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\pages" />
+      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\master" />
+      <recent name="C:\xampp\htdocs\COT-PAY\public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d264589c-12f1-40f2-9035-daa645af2a54" name="Default Changelist" comment="" />
+      <created>1583223745477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583223745477</updated>
+      <workItem from="1583223746916" duration="8024000" />
+      <workItem from="1584327596152" duration="6230000" />
+      <workItem from="1584355576256" duration="3694000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17948000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3453355" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/data.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/city.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/asset/js/script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/thong-tin-tai-khoan.html" />
+    <entry file="file://$PROJECT_DIR$/resources/views/business/thong-tin-tai-khoan.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DynamicDependentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/layouts/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/cac-buoc-tao-tai-khoan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/dang-nhap.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/vai-dieu-ve-chung-toi.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="77" lean-forward="true" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/doi-mat-khau.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/gd-mua.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="198" column="11" selection-start-line="198" selection-start-column="11" selection-end-line="198" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/gd-nap-tien.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/gd-quan-ly.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="306" column="11" selection-start-line="306" selection-start-column="11" selection-end-line="306" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/gd-rut-tien.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/login-shop.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/gd-ban.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="198" column="11" selection-start-line="198" selection-start-column="11" selection-end-line="198" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/thong-tin-tai-khoan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/gd-tao-ban.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/cai-dat.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/cac-giao-dich-cua-ban.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/layouts/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/layouts/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/business/layouts/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
