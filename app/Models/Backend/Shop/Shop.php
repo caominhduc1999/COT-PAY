@@ -9,8 +9,7 @@ use Illuminate\Notifications\Notifiable;
 class Shop extends Authenticatable
 {
     use Notifiable;
-    protected $table ='shops';
-    protected $guard = 'shop';
+    protected $guard = 'shops';
 
     protected $fillable = [
         'phone', 'password',

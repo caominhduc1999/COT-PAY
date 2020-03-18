@@ -36,74 +36,78 @@ Route::get('ajax', 'LocationController@getLocation')->name('ajax_get.location');
 
 
 
-//-------------begin pages--------------
+//-------------begin frontend--------------
 Route::get('/about', function () {
-    return view('pages.about');
+    return view('frontend.about');
 });
 
 Route::get('/cac-buoc-tao-tai-khoan', function () {
-    return view('pages.cac-buoc-tao-tai-khoan');
+    return view('frontend.cac-buoc-tao-tai-khoan');
 });
 
 Route::get('/dang-nhap', function () {
-    return view('pages.dang-nhap');
+    return view('frontend.dang-nhap');
 });
 
 Route::get('/home', function () {
-    return view('pages.home');
+    return view('frontend.home');
 });
 
 Route::get('/vai-dieu-ve-chung-toi', function () {
-    return view('pages.vai-dieu-ve-chung-toi');
+    return view('frontend.vai-dieu-ve-chung-toi');
 });
-//-----------end pages---------------
+
+Route::get('/tao-tai-khoan-shop', function () {
+    return view('frontend.tao-tai-khoan-shop');
+});
+//-----------end frontend---------------
 
 
-//----------begin user--------------
+//----------begin backend.shop--------------
 Route::get('/cai-dat', function (){
-   return view('user.cai-dat');
+   return view('backend.shop.cai-dat');
 }) ;
 
 Route::get('/doi-mat-khau', function (){
-    return view('user.doi-mat-khau');
+    return view('backend.shop.doi-mat-khau');
 }) ;
 
 Route::get('/gd-ban', function (){
-    return view('user.gd-ban');
+    return view('backend.shop.gd-ban');
 }) ;
 
 Route::get('/gd-mua', function (){
-    return view('user.gd-mua');
+    return view('backend.shop.gd-mua');
 }) ;
 
 Route::get('/gd-nap-tien', function (){
-    return view('user.gd-nap-tien');
+    return view('backend.shop.gd-nap-tien');
 }) ;
 
 Route::get('/gd-quan-ly', function (){
-    return view('user.gd-quan-ly');
+    return view('backend.shop.gd-quan-ly');
 }) ;
 
 Route::get('/gd-rut-tien', function (){
-    return view('user.gd-rut-tien');
+    return view('backend.shop.gd-rut-tien');
 }) ;
 
 Route::get('/gd-tao-ban', function (){
-    return view('user.gd-tao-ban');
+    return view('backend.shop.gd-tao-ban');
 }) ;
 
 Route::get('/login-shop', function (){
-    return view('user.login-shop');
+    return view('backend.shop.login-shop');
 }) ;
 
 Route::get('/thong-tin-tai-khoan', function (){
-    return view('user.thong-tin-tai-khoan');
+    return view('backend.shop.thong-tin-tai-khoan');
 }) ;
 
 Route::get('/cac-giao-dich-cua-ban', function (){
-    return view('user.cac-giao-dich-cua-ban');
+    return view('backend.shop.cac-giao-dich-cua-ban');
 }) ;
-//--------------end user----------------
+//--------------end backend.shop----------------
 
 
 
@@ -112,6 +116,8 @@ Route::get('/cac-giao-dich-cua-ban', function (){
 Route::group(['prefix'=>'shop'], function (){
     Route::get('login', 'Backend\Shop\LoginController@login')->name('frontend.login');
     Route::post('login', 'Backend\Shop\LoginController@postLogin')->name('frontend.post.login');
+
+    Route::get('/list','Backend\Shop\ShopController@index');
 });
 
 //--------------------end shop--------------------------------

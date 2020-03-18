@@ -18,8 +18,16 @@
 					<a href="#" title="">Quên mật khẩu?</a>
 				</div>
 			</div>
+			@if(session('notify'))
+				<div class="alert alert-danger" style="font-size: 14px">
+					{{session('notify')}}
+				</div>
+			@endif
 			<div class="connect" style="margin-top: 20px;">
-				<a onclick="submitForm()" title>Đăng nhập</a>
+
+
+
+				<a title><button style="color: #ffffff; background: none; border: none" type="submit">Đăng nhập</button></a>
 			</div>
 			<div class="no-account">
 				<p>Chưa có tài khoản?<span><a href="#" title> Đăng ký</a></span></p>
@@ -29,10 +37,3 @@
 
 @endsection
 
-@section('script')
-	<script>
-		function submitForm() {
-			$('#myForm').submit()
-		}
-	</script>
-@endsection

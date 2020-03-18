@@ -41,13 +41,13 @@
                     <div class="col-md-4">
                         <div class="icon-create-account">
                             <i class="fa fa-user fa-3x" aria-hidden="true"></i>
-                            <a style="font-size: 12px;" href="tao-tai-khoan-shop.html">Tạo tài khoản cá nhân</a>
+                            <a style="font-size: 12px;" href="tao-tai-khoan-shop.blade.php">Tạo tài khoản cá nhân</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="icon-create-account">
                             <i class="fa fa-user" aria-hidden="true"></i>
-                            <a style="font-size: 12px;" href="tao-tai-khoan-shop.html">Tạo tài khoản bán hàng</a>
+                            <a style="font-size: 12px;" href="tao-tai-khoan-shop.blade.php">Tạo tài khoản bán hàng</a>
                         </div>
                     </div>
                     <div class="col-md-4">
