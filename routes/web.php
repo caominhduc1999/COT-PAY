@@ -13,6 +13,29 @@
 
 use Illuminate\Support\Facades\DB;
 
+
+
+//-----------insert data json city----------------
+
+Route::get('/insert-json-file-to-database','InsertJsonToDBController@handle');
+
+//---------end insert json----------------------
+
+
+
+
+//---------load thanh pho, quan huyen, xa phuong-----
+
+Route::get('test', 'LocationController@index');
+Route::get('ajax', 'LocationController@getLocation')->name('ajax_get.location');
+
+//----------end load-------------------------------
+
+
+
+
+
+
 //-------------begin pages--------------
 Route::get('/about', function () {
     return view('pages.about');
@@ -84,24 +107,12 @@ Route::get('/cac-giao-dich-cua-ban', function (){
 
 
 
-//-----------quan huyen----------------
-Route::get('/insert-json-file-to-database-table', function(){
-    $json = file_get_contents(storage_path('data.json'));
-    $objs = json_decode($json,true);
-    foreach ($objs as $obj){
-        foreach ($obj['districts'] as $key => $item) {
-            DB::table('data')->insert([
-                'id'=>$key,
-                'name'=>$obj['name'],
-                'districts'=>$item,
-            ]);
-        }
-    }
+//--------------------shop--------------------------------
 
-    dd("Finished adding data in examples table");
-
+Route::group(['prefix'=>'shop'], function (){
+    Route::get('login', 'Backend\Shop\LoginController@login')->name('frontend.login');
+    Route::post('login', 'Backend\Shop\LoginController@postLogin')->name('frontend.post.login');
 });
 
-Route::get('/dynamic_dependent','DynamicDependentController@index');
-Route::get('dynamic_dependent/fetch', 'DynamicDependent@fetch')->name('dynamicdependent.fetch');
+//--------------------end shop--------------------------------
 

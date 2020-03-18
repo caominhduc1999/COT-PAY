@@ -27,6 +27,7 @@ class BaseRepository implements BaseRepositoryInterface
     {
         return $this->model->create($input);
     }
+
     public function update($id ,$input)
     {
         $result = $this->model->find($id);
@@ -36,6 +37,7 @@ class BaseRepository implements BaseRepositoryInterface
         }
         return false;
     }
+
     public function delete($id)
     {
         return $this->model->destroy($id);

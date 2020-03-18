@@ -1,70 +1,92 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Ajax Dynamic Dependent Dropdown in Laravel</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style type="text/css">
-        .box{
-            width:600px;
-            margin:0 auto;
-            border:1px solid #ccc;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
 <body>
-<br />
-<div class="container box">
-    <h3 align="center">Ajax Dynamic Dependent Dropdown in Laravel</h3><br />
-    <div class="form-group">
-        <select name="name" id="name" class="form-control input-lg dynamic">
-            <option value="">Select City</option>
-            @foreach($country_list as $country)
-                <option value="{{ $country->name}}">{{ $country->name }}</option>
+<form action="">
+    <div>
+        <label for="">Thanh Pho</label>
+        <select class="js-location" name="" id="" data-type="city">
+            <option value="">Chọn Tỉnh/Thành Phố</option>
+            @foreach($cities as $city)
+                <option value="{{$city->code}}">{{$city->name}}</option>
             @endforeach
         </select>
     </div>
-    <br />
-    <div class="form-group">
-        <select name="districts" id="districts" class="form-control input-lg">
-            <option value="">Select District</option>
+
+    <div>
+        <label for="">Quan Huyen</label>
+        <select class="js-location" id="district" data-type="district">
+            <option value="">Chọn Quận/Huyện</option>
         </select>
     </div>
-    <br />
-    <br />
-    <br />
-</div>
+
+    <div>
+        <label for="">Xa Phuong</label>
+        <select id="wards" data-type="wards">
+            <option value="">Chọn Xã/Phường</option>
+        </select>
+    </div>
+</form>
 </body>
 </html>
+
+
 <script
         src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+
+</script>
+
 <script>
-    $(document).ready(function(){
-
-        $('.dynamic').change(function(){
-            if($(this).val() != '')
-            {
-                var value = $(this).val();
-
-                $.ajax({
-                    url:"{{ route('dynamicdependent.fetch') }}",
-                    method:"GET",
-                    data:
-                        {value:value},
-                    success:function(result)
-                    {
-                        $('#districts').html(result);
-                    }
-
-                })
+    $(function () {
+        $.ajaxSetup({
+            headers : {
+                'X-CSRF-TOKEN':$('meta[name="csrf-token"]').attr('content')
             }
         });
 
-        $('#name').change(function(){
-            $('#districts').val('');
-        });
-    });
+        $(".js-location").change(function (event) {
+            event.preventDefault();
+            let route = '{{route('ajax_get.location')}}';
+            let $this = $(this);
+            let type = $this.attr('data-type');
+            let parentID = $this.val();
+            $.ajax({
+                method: "GET",
+                url : route,
+                data: {
+                    type: type,
+                    parent: parentID
+                }
+            })
+            .done(function (msg) {
+                if (msg.data)
+                {
+                    let html = '';
+                    let element = '';
+                    if (type == 'city')
+                    {
+                        html = "<option>Chọn Quận/Huyện</option>";
+                        element = '#district';
+                    }else{
+                        html = "<option>Chọn Xã/Phường</option>";
+                        element = '#wards';
+                    }
+
+                    $.each(msg.data, function (index, value) {
+                        html+= "<option value='"+value.code+"'>"+value.name+"</option>"
+                    })
+
+                    $(element).html('').append(html);
+                }
+            });
+        })
+    })
 </script>

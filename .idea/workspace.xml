@@ -2,181 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d264589c-12f1-40f2-9035-daa645af2a54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-light-300.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-light-300.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-light-300.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-light-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-light-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/._fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-light-300.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-light-300.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-light-300.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-light-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-light-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/choose-wallet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/style-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/style-update.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/style1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/style2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/style2a.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/style3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/style4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/style5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/style6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/css/stylehd.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/UTM Americana.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/UTM AmericanaB.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/UTM AmericanaBEx.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/UTM AmericanaItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/COT Website (1).xd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/a1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/air.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/anh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/bank.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/bank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/cot1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/cot11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/cot1111.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/cot2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/cot2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/cot22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/ebay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/img-slider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/img1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/momo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/us.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/vie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/viettel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/vn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/images/zalo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/js/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/LOGON1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/ao-khoac.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/import-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/no-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/lumino.glyphs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/cac-giao-dich-cua-ban.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/cai-dat.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/doi-mat-khau.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/gd-ban.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/gd-mua.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/gd-nap-tien.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/gd-quan-ly.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/gd-rut-tien.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/gd-tao-ban.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/layouts/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/layouts/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/layouts/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/layouts/sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/login-shop.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/business/thong-tin-tai-khoan.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/city.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/about.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/cac-buoc-tao-tai-khoan.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/dang-nhap.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/layouts/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/layouts/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/layouts/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/vai-dieu-ve-chung-toi.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/cac-giao-dich-cua-ban.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/cai-dat.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/doi-mat-khau.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/gd-ban.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/gd-mua.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/gd-nap-tien.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/gd-quan-ly.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/gd-rut-tien.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/gd-tao-ban.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/layouts/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/layouts/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/layouts/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/layouts/sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/login-shop.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/thong-tin-tai-khoan.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/Admin/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/Business/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/Shop/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/InsertJsonToDBController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LocationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Backend/Admin/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Backend/Business/Business.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Backend/Shop/Shop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/AdminFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/BusinessFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/ShopFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/Locations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/user/cac-giao-dich-cua-ban.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/user/cai-dat.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/user/doi-mat-khau.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/user/gd-ban.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/user/gd-mua.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/user/gd-nap-tien.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/user/gd-quan-ly.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/user/gd-rut-tien.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/user/gd-tao-ban.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/user/index-user.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/user/thong-tin-tai-khoan.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/dang-nhap.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/tree.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DynamicDependentController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/BaseRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/BaseRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/BaseRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/BaseRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_16_031146_create_city_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_16_031146_create_city_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_16_032826_create_admins_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_16_032826_create_admins_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_16_033147_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_16_033147_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_16_065547_create_business_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_16_065547_create_business_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_16_072716_create_shops_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_16_072716_create_shops_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_16_073030_create_oder_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_16_073030_create_oder_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/Admins.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/Admins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/Business.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/Business.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/Shops.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/Shops.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/cac-giao-dich-cua-ban.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/business/cac-giao-dich-cua-ban.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/cai-dat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/shop/cai-dat.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/doi-mat-khau.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/shop/doi-mat-khau.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/gd-ban.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/business/gd-ban.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/gd-mua.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/shop/gd-mua.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/gd-nap-tien.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/business/gd-nap-tien.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/gd-quan-ly.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/shop/gd-quan-ly.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/gd-rut-tien.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/business/gd-rut-tien.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/gd-tao-ban.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/business/gd-tao-ban.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/layouts/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/layouts/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/login-shop.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/shop/index-shop.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/business/thong-tin-tai-khoan.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/business/thong-tin-tai-khoan.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/city.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/city.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/cac-buoc-tao-tai-khoan.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/cac-buoc-tao-tai-khoan.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/dang-nhap.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/vai-dieu-ve-chung-toi.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/vai-dieu-ve-chung-toi.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/cac-giao-dich-cua-ban.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/shop/cac-giao-dich-cua-ban.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/cai-dat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/business/cai-dat.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/doi-mat-khau.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/business/doi-mat-khau.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/gd-ban.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/shop/gd-ban.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/gd-mua.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/business/gd-mua.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/gd-nap-tien.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/shop/gd-nap-tien.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/gd-quan-ly.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/business/gd-quan-ly.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/gd-rut-tien.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/shop/gd-rut-tien.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/gd-tao-ban.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/shop/gd-tao-ban.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/layouts/footer.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/layouts/header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/layouts/master.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/layouts/sidebar.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/login-shop.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/business/index-business.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/thong-tin-tai-khoan.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/shop/thong-tin-tai-khoan.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -190,11 +96,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+            <state relative-caret-position="323">
+              <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/city.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -206,6 +130,11 @@
       <find>strict</find>
       <find>dynamic</find>
       <find>.blade.php</find>
+      <find>Cà Mau</find>
+      <find>cao bằng</find>
+      <find>40</find>
+      <find>masma</find>
+      <find>040</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,38 +143,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/DynamicDependent.php" />
-        <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/DynamicDependentController.php" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/about.html" />
-        <option value="$PROJECT_DIR$/resources/views/pages/header.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/master.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/layouts/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/layouts/master.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/cac-buoc-tao-tai-khoan.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/dang-nhap.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/vai-dieu-ve-chung-toi.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/cai-dat.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/doi-mat-khau.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/gd-mua.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/gd-nap-tien.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/gd-quan-ly.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/gd-rut-tien.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/login-shop.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/thong-tin-tai-khoan.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/gd-ban.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/layouts/header.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/user/layouts/sidebar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/cac-giao-dich-cua-ban.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/pages/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/shop/login-shop.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Shop/LoginController.php" />
+        <option value="$PROJECT_DIR$/app/Models/Backend/Business/Business.php" />
+        <option value="$PROJECT_DIR$/app/Models/Backend/Admin/Admin.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/dang-nhap.blade.php" />
+        <option value="$PROJECT_DIR$/database/factories/ShopFactory.php" />
+        <option value="$PROJECT_DIR$/app/Models/Backend/Shop/Shop.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/about.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/cac-buoc-tao-tai-khoan.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/vai-dieu-ve-chung-toi.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/business/cac-giao-dich-cua-ban.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/business/cai-dat.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/business/doi-mat-khau.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/business/gd-ban.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/business/gd-mua.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/business/gd-nap-tien.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/business/gd-quan-ly.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/business/gd-rut-tien.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/business/index-business.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/business/thong-tin-tai-khoan.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LocationController.php" />
+        <option value="$PROJECT_DIR$/resources/views/city.blade.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_03_16_073030_create_oder_table.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/BaseRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/BaseRepository.php" />
+        <option value="$PROJECT_DIR$/config/auth.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/Shop/LoginController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/InsertJsonToDBController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_03_16_031146_create_city_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/Locations.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_03_16_032826_create_admins_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_03_16_033147_create_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_03_16_065547_create_business_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_03_16_072716_create_shops_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/Admins.php" />
+        <option value="$PROJECT_DIR$/database/seeds/Business.php" />
+        <option value="$PROJECT_DIR$/database/seeds/Shops.php" />
+        <option value="$PROJECT_DIR$/database/seeds/Users.php" />
       </list>
     </option>
   </component>
@@ -339,10 +287,10 @@
       <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="131" />
-    <option name="y" value="4" />
-    <option name="width" value="1189" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="154" />
+    <option name="y" value="14" />
+    <option name="width" value="1140" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -368,7 +316,46 @@
             <path>
               <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
               <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="seeds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
@@ -380,16 +367,6 @@
               <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COT-PAY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COT-PAY" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -404,20 +381,22 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\COT-PAY\storage" />
+      <recent name="C:\xampp\htdocs\COT-PAY\app\Http\Controllers\Backend" />
+      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\frontend" />
+      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\backend" />
+      <recent name="C:\xampp\htdocs\COT-PAY\storage\logs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\backend\user" />
+      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\backend\shop" />
       <recent name="C:\xampp\htdocs\COT-PAY\resources\views\business" />
       <recent name="C:\xampp\htdocs\COT-PAY\resources\views\user" />
       <recent name="C:\xampp\htdocs\COT-PAY\resources\views\pages" />
-      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\admin" />
-      <recent name="C:\xampp\htdocs\COT-PAY\public\assets" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\pages\layouts" />
-      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\pages" />
-      <recent name="C:\xampp\htdocs\COT-PAY\resources\views\master" />
-      <recent name="C:\xampp\htdocs\COT-PAY\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -451,19 +430,22 @@
       <workItem from="1583223746916" duration="8024000" />
       <workItem from="1584327596152" duration="6230000" />
       <workItem from="1584355576256" duration="3694000" />
+      <workItem from="1584410166574" duration="11511000" />
+      <workItem from="1584440307337" duration="2630000" />
+      <workItem from="1584443070303" duration="4057000" />
+      <workItem from="1584496739414" duration="5346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17948000" />
+    <option name="totallyTimeSpent" value="41492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.27155825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="npm" order="2" sideWeight="0.5008183" side_tool="true" weight="0.25869894" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
@@ -473,10 +455,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3453355" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.34369886" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" visible="true" weight="0.4140753" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -487,219 +469,339 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env.example">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/database/factories/ShopFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#67#100#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="102">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="-32" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/data.json">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DynamicDependentController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        <state relative-caret-position="-287">
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/city.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/about.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/asset/js/script.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/thong-tin-tai-khoan.html" />
-    <entry file="file://$PROJECT_DIR$/resources/views/business/thong-tin-tai-khoan.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DynamicDependentController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/cac-buoc-tao-tai-khoan.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/dang-nhap.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/vai-dieu-ve-chung-toi.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/business/cac-giao-dich-cua-ban.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/business/cai-dat.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/business/doi-mat-khau.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/business/gd-ban.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/business/gd-mua.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/business/gd-nap-tien.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/business/gd-quan-ly.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/business/gd-rut-tien.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/business/gd-tao-ban.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/business/index-business.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/user/cac-giao-dich-cua-ban.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/shop/cac-giao-dich-cua-ban.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/business/thong-tin-tai-khoan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/user/thong-tin-tai-khoan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/city.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="751" column="54" lean-forward="true" selection-start-line="751" selection-start-column="54" selection-end-line="751" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_03_16_073030_create_oder_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/Wallet.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/BaseRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/BaseRepositoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Backend/Shop/Shop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#43#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1375">
+          <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/Shop/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="e#53#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/user/index-user.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InsertJsonToDBController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="73" lean-forward="true" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/layouts/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/layouts/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/about.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/cac-buoc-tao-tai-khoan.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/dang-nhap.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/vai-dieu-ve-chung-toi.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="77" lean-forward="true" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/doi-mat-khau.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/gd-mua.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="198" column="11" selection-start-line="198" selection-start-column="11" selection-end-line="198" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/gd-nap-tien.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/gd-quan-ly.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="306" column="11" selection-start-line="306" selection-start-column="11" selection-end-line="306" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/gd-rut-tien.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/login-shop.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/gd-ban.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="198" column="11" selection-start-line="198" selection-start-column="11" selection-end-line="198" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/thong-tin-tai-khoan.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/gd-tao-ban.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/cai-dat.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/cac-giao-dich-cua-ban.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/layouts/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/layouts/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/layouts/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/business/layouts/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+        <state relative-caret-position="323">
+          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/tree.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="11335" column="16" selection-start-line="11335" selection-start-column="13" selection-end-line="11335" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LocationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_03_16_031146_create_city_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/city.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_03_16_032826_create_admins_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="47" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_03_16_033147_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_03_16_065547_create_business_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_03_16_072716_create_shops_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/Admins.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="240" selection-start-line="17" selection-start-column="240" selection-end-line="17" selection-end-column="240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/Business.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="338" selection-start-line="16" selection-start-column="338" selection-end-line="16" selection-end-column="338" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/Shops.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="294" selection-start-line="16" selection-start-column="294" selection-end-line="16" selection-end-column="294" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="264" selection-start-line="17" selection-start-column="264" selection-end-line="17" selection-end-column="264" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/Locations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="65" lean-forward="true" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>
