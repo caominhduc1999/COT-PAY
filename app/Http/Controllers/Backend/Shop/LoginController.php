@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
+
     public function login(){
         return view('frontend.dang-nhap');
     }
@@ -16,11 +17,11 @@ class LoginController extends Controller
     public function postLogin(){
         $phone = \request()->phone;
         $password = \request()->password;
-        if (Auth::attempt(['phone'=>$phone, 'password'=>$password], \request()->remember)){
-            return redirect('backend.shop.index-shop');
+        if (Auth::guard('shops')->attempt(['phone'=>$phone, 'password'=>$password], \request()->remember)){
+            return view('backend.shop.index-shop');
         }
         else{
-            return redirect()->back()->with('Tài khoản hoặc mật khẩu không chính xác. Vui lòng thử lại !');
+            return redirect()->back()->with('notify','Tài khoản hoặc mật khẩu không chính xác. Vui lòng thử lại !');
         }
 
     }

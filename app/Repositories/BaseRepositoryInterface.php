@@ -4,7 +4,7 @@ use Illuminate\Database\Eloquent\Model;
 
 interface BaseRepositoryInterface
 {
-    public function index();
+    public function list();
     public function show($id);
     public function store($input);
     public function update($id ,$input);

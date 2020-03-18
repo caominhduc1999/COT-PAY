@@ -12,8 +12,7 @@ class BaseRepository implements BaseRepositoryInterface
         $this->model = $model;
     }
 
-
-    public function index()
+    public function list()
     {
         return $this->model->all();
     }
