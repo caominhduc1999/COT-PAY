@@ -21,8 +21,9 @@ class CreateAdminsTable extends Migration
             $table->string('phone')->unique();
             $table->string('address');
             $table->string('image');
-            $table->bigInteger('id_city')->unsigned();
-            $table->foreign('id_city')->references('id')->on('city')->onDelete('cascade');
+            $table->string('city')->nullable();
+            $table->string('district')->nullable();
+            $table->string('ward')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

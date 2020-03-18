@@ -13,7 +13,7 @@ class CreateOderTable extends Migration
      */
     public function up()
     {
-        Schema::create('oder', function (Blueprint $table) {
+        Schema::create('order', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->decimal('price',18,0);
             $table->string('content');
@@ -29,6 +29,6 @@ class CreateOderTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('oder');
+        Schema::dropIfExists('order');
     }
 }
