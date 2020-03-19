@@ -17,6 +17,12 @@
     <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="asset/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="asset/css/slick.css">
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous">
+    </script>
 </head>
 <body>
 

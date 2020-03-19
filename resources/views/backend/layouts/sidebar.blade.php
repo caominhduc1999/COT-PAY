@@ -5,8 +5,8 @@
         <li class="active"><a href="login-shop"><svg class="glyph stroked dashboard-dial">
                     <use xlink:href="#stroked-dashboard-dial"></use>
                 </svg> Tổng quan</a></li>
-        <li><a href="thong-tin-tai-khoan"><svg class="glyph stroked clipboard with paper">
-                    <use xlink:href="#stroked-clipboard-with-paper" /></svg> Thông tin tài khoản</a></li>
+        {{--<li><a href="thong-tin-tai-khoan"><svg class="glyph stroked clipboard with paper">--}}
+                    {{--<use xlink:href="#stroked-clipboard-with-paper" /></svg> Thông tin tài khoản</a></li>--}}
         <li><a href="cac-giao-dich-cua-ban"><svg class="glyph stroked bag">
                     <use xlink:href="#stroked-bag"></use>
                 </svg> Các đề nghị bán hàng</a></li>

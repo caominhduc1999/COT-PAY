@@ -10,7 +10,12 @@ use Illuminate\Support\Facades\Auth;
 class LoginController extends Controller
 {
 
-    public function login(){
+    public function getLogin(){
+
+        if (Auth::guard('shops')->check())
+        {
+            return view('backend.shop.index-shop');
+        }
         return view('frontend.dang-nhap');
     }
 
@@ -23,6 +28,10 @@ class LoginController extends Controller
         else{
             return redirect()->back()->with('notify','Tài khoản hoặc mật khẩu không chính xác. Vui lòng thử lại !');
         }
+    }
 
+    public function logout(){
+        Auth::guard('shops')->logout();
+        return redirect(route('frontend.get.login'));
     }
 }
