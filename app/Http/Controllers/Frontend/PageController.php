@@ -13,6 +13,7 @@ class PageController extends Controller
     private $cities;
     private $shopRepository;
 
+
     public function __construct(ShopRepository $shopRepository)
     {
         $this->cities = DB::table('city')->where('type', 0)->get();
@@ -31,8 +32,11 @@ class PageController extends Controller
         return redirect()->back()->with('notify', 'Thêm thành công');
     }
 
-
-
+    //--------------tao tai khoan user--------------
+    public function createUserAccount(){
+        
+        return view('frontend.tao-tai-khoan-user',['cities' => $this->cities]);
+    }
 
 
 

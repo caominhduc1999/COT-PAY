@@ -15,41 +15,70 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
 
-//-----------insert data json city----------------
+//-----------------------------------------------begin frontend------------------------------------------------------
 
-Route::get('/insert-json-file-to-database','InsertJsonToDBController@handle');
+Route::get('/', function () {
+    return view('frontend.home');
+});
 
-//---------end insert json----------------------
+
+Route::get('login', function () {
+    return view('frontend.dang-nhap');
+});
 
 
-//-------------begin frontend--------------
+
+//------ đăng kí tài khoản
+Route::group(['prefix' => 'register'], function () {
+
+    Route::get('', function () {
+        return view('frontend.cac-buoc-tao-tai-khoan');
+    });
+
+    Route::get('user', 'Frontend\PageController@createUserAccount');
+
+    Route::get('shop', 'Frontend\PageController@createShopAccount');
+
+    Route::get('business', function () {
+        return view('frontend.tao-tai-khoan-shop');
+    });
+});
+
+
+
+Route::get('contact', function () {
+    return view('frontend.contact');
+});
+
+
+
 Route::get('/about', function () {
     return view('frontend.about');
 });
 
-Route::get('/cac-buoc-tao-tai-khoan', function () {
-    return view('frontend.cac-buoc-tao-tai-khoan');
-});
-
-Route::get('/dang-nhap', function () {
-    return view('frontend.dang-nhap');
-});
-
-Route::get('/home', function () {
-    return view('frontend.home');
-});
-
-Route::get('/vai-dieu-ve-chung-toi', function () {
-    return view('frontend.vai-dieu-ve-chung-toi');
-});
-
-Route::get('/tao-tai-khoan-shop', function () {
-    return view('frontend.tao-tai-khoan-shop');
-});
-//-----------end frontend---------------
+//----------------------------------------------end frontend------------------------------------------------------
 
 
-//----------begin backend.shop--------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//-------------------------------------------------begin backend.shop-----------------------------------------------
 Route::get('/cai-dat', function (){
    return view('backend.shop.cai-dat');
 }) ;
@@ -93,7 +122,6 @@ Route::get('/thong-tin-tai-khoan', function (){
 Route::get('/cac-giao-dich-cua-ban', function (){
     return view('backend.shop.cac-giao-dich-cua-ban');
 }) ;
-//--------------end backend.shop----------------
 
 
 
@@ -126,3 +154,8 @@ Route::group(['prefix'=>'shop'], function (){
 
 //--------------------end shop--------------------------------
 
+
+
+
+
+//--------------------------------------------------------end backend.shop----------------------------------------------------------

@@ -22,6 +22,7 @@ class LoginController extends Controller
     public function postLogin(){
         $phone = \request()->phone;
         $password = \request()->password;
+
         if (Auth::guard('shops')->attempt(['phone'=>$phone, 'password'=>$password], \request()->remember)){
             return view('backend.shop.index-shop');
         }
