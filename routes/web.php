@@ -23,19 +23,6 @@ Route::get('/insert-json-file-to-database','InsertJsonToDBController@handle');
 
 
 
-
-//---------load thanh pho, quan huyen, xa phuong-----
-
-Route::get('test', 'LocationController@index');
-Route::get('ajax', 'LocationController@getLocation')->name('ajax_get.location');
-
-//----------end load-------------------------------
-
-
-
-
-
-
 //-----------------------------------------------begin frontend------------------------------------------------------
 
 Route::get('/', function () {
