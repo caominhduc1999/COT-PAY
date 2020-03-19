@@ -12,7 +12,7 @@
 */
 
 use Illuminate\Support\Facades\DB;
-
+use Illuminate\Support\Facades\Route;
 
 
 //-----------insert data json city----------------
@@ -20,20 +20,6 @@ use Illuminate\Support\Facades\DB;
 Route::get('/insert-json-file-to-database','InsertJsonToDBController@handle');
 
 //---------end insert json----------------------
-
-
-
-
-//---------load thanh pho, quan huyen, xa phuong-----
-
-Route::get('test', 'LocationController@index');
-Route::get('ajax', 'LocationController@getLocation')->name('ajax_get.location');
-
-//----------end load-------------------------------
-
-
-
-
 
 
 //-------------begin frontend--------------
@@ -111,13 +97,31 @@ Route::get('/cac-giao-dich-cua-ban', function (){
 
 
 
+Route::get('login', 'Backend\Shop\LoginController@getLogin')->name('frontend.get.login');
+Route::post('login', 'Backend\Shop\LoginController@postLogin')->name('frontend.post.login');
+Route::get('logout','Backend\Shop\LoginController@logout');
+
+//tao tai khoan shop
+Route::get('create/shop-account','Frontend\PageController@createShopAccount')->name('frontend.create.shop_account');
+Route::get('create/shop-account','Frontend\PageController@createShopAccount')->name('frontend.store.shop_account');
+//end tao tai khoan shop
+
+
+// load quan huyen
+Route::get('ajax', 'Frontend\PageController@getLocation')->name('ajax_get.location');
+
+
+
+
 //--------------------shop--------------------------------
 
 Route::group(['prefix'=>'shop'], function (){
-    Route::get('login', 'Backend\Shop\LoginController@login')->name('frontend.login');
-    Route::post('login', 'Backend\Shop\LoginController@postLogin')->name('frontend.post.login');
-
-    Route::get('/list','Backend\Shop\ShopController@index');
+    Route::get('/','Backend\Shop\ShopController@index')->name('shop.index');
+    Route::get('create','Backend\Shop\ShopController@create')->name('shop.create');
+    Route::post('create','Backend\Shop\ShopController@store')->name('shop.store');
+    Route::get('edit/{id}','Backend\Shop\ShopController@edit')->name('shop.edit');
+    Route::put('edit/{id}','Backend\Shop\ShopController@update')->name('shop.update');
+    Route::delete('delete','Backend\Shop\ShopController@destroy')->name('shop.destroy');
 });
 
 //--------------------end shop--------------------------------
