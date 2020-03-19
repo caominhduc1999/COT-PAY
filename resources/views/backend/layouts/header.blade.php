@@ -51,10 +51,10 @@
                             <use xlink:href="#stroked-male-user"></use>
                         </svg> admin <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="#"><svg class="glyph stroked male-user">
+                        <li><a href="@if(\Illuminate\Support\Facades\Auth::check()){{\Illuminate\Support\Facades\Auth::user()->id}}@endif"><svg class="glyph stroked male-user">
                                     <use xlink:href="#stroked-male-user"></use>
-                                </svg>Thông tin</a></li>
-                        <li><a href="login.html"><svg class="glyph stroked cancel">
+                                </svg>Thông tin tài khoản</a></li>
+                        <li><a href="logout"><svg class="glyph stroked cancel">
                                     <use xlink:href="#stroked-cancel"></use>
                                 </svg> Logout</a></li>
                     </ul>
