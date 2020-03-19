@@ -8,54 +8,20 @@
             <div class="col-md-3"></div>
             <div class="content-info col-md-6">
                 <h1 style="text-align:center">Tạo tài khoản và bắt đầu giao dịch, mua sắm, thanh toán</h1>
-                <form action="{{route('shop.store')}}" method="post">
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
+                <form action="{{route('frontend.store.shop_account')}}" method="post">
                     @csrf
-                    <select class="form-control">
-                        <option>Chọn loại ví điện tử để thanh toán</option>
-                        <option>MOMO</option>
-                        <option>ViettelPay</option>
-                        <option>ZaloPay</option>
-                        <option>AirPay</option>
-                    </select>
                     <input class="form-control" type="text" name="name_shop" placeholder="Tên shop" value="{{old('name_shop')}}">
-                    @if ($errors->has('name_shop'))
-                        <div class="text text-danger">
-                            {{ $errors->first('name_shop') }}
-                        </div>
-                    @endif
+                        {!! ShowError($errors,'name_shop') !!}
                     <input class="form-control" type="text" name="name" placeholder="Họ tên" value="{{old('name')}}">
-                    @if ($errors->has('name'))
-                        <div class="text text-danger">
-                            {{ $errors->first('name') }}
-                        </div>
-                    @endif
+                        {!! ShowError($errors,'name') !!}
                     <input class="form-control" type="email" name="email" placeholder="Email" value="{{old('email')}}">
-                    @if ($errors->has('email'))
-                        <div class="text text-danger">
-                            {{ $errors->first('email') }}
-                        </div>
-                    @endif
+                        {!! ShowError($errors,'email') !!}
                     <input class="form-control" type="text" name="phone" placeholder="Số điện thoại" value="{{old('phone')}}">
-                    @if ($errors->has('phone'))
-                        <div class="text text-danger">
-                            {{ $errors->first('phone') }}
-                        </div>
-                    @endif
+                        {!! ShowError($errors,'phone') !!}
                     <input class="form-control" type="password" name="password" placeholder="Mật khẩu">
-                    @if ($errors->has('password'))
-                        <div class="text text-danger">
-                            {{ $errors->first('password') }}
-                        </div>
-                    @endif
+                        {!! ShowError($errors,'password') !!}
                     <input class="form-control" type="password" name="passwordConfirmation" placeholder="Xác nhận mật khẩu">
-                    @if ($errors->has('passwordConfirmation'))
-                        <div class="text text-danger">
-                            {{ $errors->first('passwordConfirmation') }}
-                        </div>
-                    @endif
+                        {!! ShowError($errors,'passwordConfirmation') !!}
                     <select class="form-control js-location" data-type="city" name="city">
                         <option>Chọn Tỉnh/Thành phố</option>
                         @foreach($cities as $city)
@@ -71,11 +37,7 @@
                     </select>
 
                     <input class="form-control" type="text" name="address" placeholder="Địa chỉ shop" value="{{old('address')}}">
-                    @if ($errors->has('address'))
-                        <div class="text text-danger">
-                            {{ $errors->first('address') }}
-                        </div>
-                    @endif
+                        {!! ShowError($errors,'address') !!}
                     <label class="container">Tôi đồng ý với tất cả điều khoản và điều kiện
                         <input type="checkbox">
                         <span class="checkmark"></span>

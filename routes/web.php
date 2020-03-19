@@ -103,7 +103,7 @@ Route::get('logout','Backend\Shop\LoginController@logout');
 
 //tao tai khoan shop
 Route::get('create/shop-account','Frontend\PageController@createShopAccount')->name('frontend.create.shop_account');
-Route::get('create/shop-account','Frontend\PageController@createShopAccount')->name('frontend.store.shop_account');
+Route::post('create/shop-account','Frontend\PageController@storeShopAccount')->name('frontend.store.shop_account');
 //end tao tai khoan shop
 
 

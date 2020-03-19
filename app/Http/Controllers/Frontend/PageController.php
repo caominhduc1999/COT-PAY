@@ -10,19 +10,17 @@ use Illuminate\Support\Facades\DB;
 
 class PageController extends Controller
 {
-
+    private $cities;
     private $shopRepository;
 
     public function __construct(ShopRepository $shopRepository)
     {
-
+        $this->cities = DB::table('city')->where('type', 0)->get();
         $this->shopRepository = $shopRepository;
     }
 
     public function createShopAccount(){
-        $cities = DB::table('city')->where('type', 0)->get();
-
-        return view('frontend.tao-tai-khoan-shop', compact('cities'));
+        return view('frontend.tao-tai-khoan-shop', ['cities'=>$this->cities]);
     }
 
     public function storeShopAccount(Request $request, StoreShopRequest $storeShopRequest){
