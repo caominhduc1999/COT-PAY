@@ -12,17 +12,17 @@ class PageController extends Controller
 {
 
     private $shopRepository;
+    private $cities;
 
     public function __construct(ShopRepository $shopRepository)
     {
-
         $this->shopRepository = $shopRepository;
+        $this->cities = DB::table('city')->where('type', 0)->get();
     }
 
     public function createShopAccount(){
-        $cities = DB::table('city')->where('type', 0)->get();
 
-        return view('frontend.tao-tai-khoan-shop', compact('cities'));
+        return view('frontend.tao-tai-khoan-shop', ['cities' => $this->cities]);
     }
 
     public function storeShopAccount(Request $request, StoreShopRequest $storeShopRequest){
@@ -33,8 +33,11 @@ class PageController extends Controller
         return redirect()->back()->with('notify', 'Thêm thành công');
     }
 
-
-
+    //--------------tao tai khoan user--------------
+    public function createUserAccount(){
+        
+        return view('frontend.tao-tai-khoan-user',['cities' => $this->cities]);
+    }
 
 
 
