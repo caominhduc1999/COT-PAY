@@ -95,8 +95,7 @@ Tạo tài khoản người dùng
 
         $(".js-location").change(function (event) {
             event.preventDefault();
-            let route = '{{route('
-            ajax_get.location ')}}';
+            let route = '{{route('ajax_get.location')}}';
             let $this = $(this);
             let type = $this.attr('data-type');
             let parentID = $this.val();
