@@ -30,9 +30,8 @@
     @include('frontend.layouts.header')
     @yield('content')
     @include('frontend.layouts.footer')
+
     @yield('script')
-
-
 
     <script src="asset/js/jquery.min.js" defer></script>
     <script src="asset/bootstrap/js/bootstrap.min.js" defer></script>
@@ -62,6 +61,52 @@
                 }
             });
         }
+    </script>
+
+    <script>
+        $(function () {
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+
+            $(".js-location").change(function (event) {
+                event.preventDefault();
+                let route = '{{route('ajax_get.location')}}';
+                let $this = $(this);
+                let type = $this.attr('data-type');
+                let parentID = $this.val();
+                $.ajax({
+                    method: "GET",
+                    url: route,
+                    data: {
+                        type: type,
+                        parent: parentID
+                    }
+                })
+                    .done(function (msg) {
+                        if (msg.data) {
+                            let html = '';
+                            let element = '';
+                            if (type == 'city') {
+                                html = "<option>Chọn Quận/Huyện</option>";
+                                element = '#district';
+                            } else {
+                                html = "<option>Chọn Xã/Phường</option>";
+                                element = '#wards';
+                            }
+
+                            $.each(msg.data, function (index, value) {
+                                html += "<option value='" + value.code + "'>" + value.name +
+                                    "</option>"
+                            })
+
+                            $(element).html('').append(html);
+                        }
+                    });
+            })
+        })
     </script>
     </body>
 </html>

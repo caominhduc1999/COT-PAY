@@ -9,14 +9,25 @@ use Illuminate\Notifications\Notifiable;
 class Business extends Authenticatable
 {
     use Notifiable;
-
+    protected $table = 'business';
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'code',
+        'name_company',
+        'name_represent',
+        'email',
+        'password',
+        'phone',
+        'tax_code',
+        'address',
+        'image',
+        'city',
+        'district',
+        'ward'
     ];
 
     /**

@@ -21,7 +21,7 @@
 	<div id="mainnav">
 		<ul>
 			<li class="active"><a href="shop-login.html">Trang chủ</a></li>
-			<li><a href="thong-tin-tai-khoan.blade.php">Thông tin tài khoản</a></li>
+			<li><a href="account_info.blade.php">Thông tin tài khoản</a></li>
 			<li><a href="gd-ban.blade.php">Các đề nghị bán hàng</a></li>
 			<!-- <span class="span-notification">3</span> -->
 			<li><a href="gd-tao-ban.blade.php">Tạo giao dịch mua</a></li>
@@ -29,7 +29,7 @@
 			<li><a href="gd-quan-ly.blade.php">Quản lý giao dịch</a></li>
 			<li><a href="gd-nap-tien.blade.php">Nạp tiền ví Bonus</a></li>
 			<li><a href="gd-rut-tien.blade.php">Rút tiền ví Bonus</a></li>
-			<li><a href="doi-mat-khau.blade.php">Đổi mật khẩu</a></li>
+			<li><a href="change_password.blade.php">Đổi mật khẩu</a></li>
 			<li><a href="cai-dat.blade.php">Cài đặt</a></li>
 		</ul>
 	</div>
@@ -83,7 +83,7 @@
 			<a href="gd-quan-ly.blade.php">Quản lý giao dịch</a>
 			<a href="gd-nap-tien.blade.php">Nạp tiền ví Bonus</a>
 			<a href="gd-rut-tien.blade.php">Rút tiền ví Bonus</a>
-			<a href="doi-mat-khau.blade.php">Đổi mật khẩu</a>
+			<a href="change_password.blade.php">Đổi mật khẩu</a>
 			<a href="cai-dat.blade.php">Cài đặt</a>
 			<button class="dropdown-btn">Ví liên kết</button>
 			<div class="dropdown-container">

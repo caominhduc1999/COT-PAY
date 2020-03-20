@@ -15,12 +15,6 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
 
-//-----------insert data json city----------------
-
-Route::get('/insert-json-file-to-database','InsertJsonToDBController@handle');
-
-//---------end insert json----------------------
-
 
 
 //-----------------------------------------------begin frontend------------------------------------------------------
@@ -30,30 +24,39 @@ Route::get('/', function () {
 });
 
 
-Route::get('login', function () {
-    return view('frontend.dang-nhap');
-});
+//---------login
+Route::group(['prefix'  =>  'login'], function () {
+    Route::get('/',function (){
+       return view('choose_login_form')->name('login');
+    });
 
+    Route::get('user', 'Backend\User\LoginController@getLogin')->name('login.user.get');
+    Route::post('user', 'Backend\User\LoginController@postLogin')->name('login.user.post');
+
+    Route::get('shop', 'Backend\Shop\LoginController@getLogin')->name('login.shop.get');
+    Route::post('shop', 'Backend\Shop\LoginController@postLogin')->name('login.shop.post');
+
+    Route::get('business', 'Backend\Business\LoginController@getLogin')->name('login.business.get');
+    Route::post('business', 'Backend\Business\LoginController@postLogin')->name('login.business.post');
+});
 
 
 //------ đăng kí tài khoản
 Route::group(['prefix' => 'register'], function () {
 
-    Route::get('', function () {
-        return view('frontend.cac-buoc-tao-tai-khoan');
+    Route::get('/', function () {
+        return view('frontend.pages.create_account_steps');
     });
 
-    Route::get('user', 'Frontend\PageController@createUserAccount');
+    Route::get('user', 'Frontend\PageController@createUserAccount')->name('register.user.get');
+    Route::post('user', 'Frontend\PageController@storeUserAccount')->name('register.user.post');
 
-    Route::get('shop', function () {
-        return view('frontend.tao-tai-khoan-shop');
-    });
+    Route::get('shop', 'Frontend\PageController@createShopAccount')->name('register.shop.get');
+    Route::post('shop', 'Frontend\PageController@storeShopAccount')->name('register.shop.post');
 
-    Route::get('business', function () {
-        return view('frontend.tao-tai-khoan-shop');
-    });
+    Route::get('business', 'Frontend\PageController@createBusinessAccount')->name('register.business.get');
+    Route::post('business', 'Frontend\PageController@storeBusinessAccount')->name('register.business.post');
 });
-
 
 
 Route::get('contact', function () {
@@ -61,26 +64,13 @@ Route::get('contact', function () {
 });
 
 
-
 Route::get('/about', function () {
     return view('frontend.about');
 });
 
+// load quan huyen
+Route::get('ajax', 'Frontend\PageController@getLocation')->name('ajax_get.location');
 //----------------------------------------------end frontend------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -135,31 +125,24 @@ Route::get('/cac-giao-dich-cua-ban', function (){
 
 
 
-Route::get('login', 'Backend\Shop\LoginController@getLogin')->name('frontend.get.login');
-Route::post('login', 'Backend\Shop\LoginController@postLogin')->name('frontend.post.login');
-Route::get('logout','Backend\Shop\LoginController@logout');
-
-//tao tai khoan shop
-Route::get('create/shop-account','Frontend\PageController@createShopAccount')->name('frontend.create.shop_account');
-Route::get('create/shop-account','Frontend\PageController@createShopAccount')->name('frontend.store.shop_account');
-//end tao tai khoan shop
-
-
-// load quan huyen
-Route::get('ajax', 'Frontend\PageController@getLocation')->name('ajax_get.location');
-
-
 
 
 //--------------------shop--------------------------------
 
 Route::group(['prefix'=>'shop'], function (){
+
     Route::get('/','Backend\Shop\ShopController@index')->name('shop.index');
     Route::get('create','Backend\Shop\ShopController@create')->name('shop.create');
     Route::post('create','Backend\Shop\ShopController@store')->name('shop.store');
     Route::get('edit/{id}','Backend\Shop\ShopController@edit')->name('shop.edit');
     Route::put('edit/{id}','Backend\Shop\ShopController@update')->name('shop.update');
     Route::delete('delete','Backend\Shop\ShopController@destroy')->name('shop.destroy');
+
+    Route::get('account','Backend\Shop\ShopController@getUpdateAccount')->name('shop.account.get');
+    Route::put('account','Backend\Shop\ShopController@postUpdateAccount')->name('shop.account.post');
+    Route::get('change_password','Backend\Shop\ShopController@getChangePassword')->name('shop.change_password.get');
+    Route::put('change_password','Backend\Shop\ShopController@postChangePassword')->name('shop.change_password.post');
+    Route::get('logout','Backend\Shop\ShopController@logout')->name('shop.logout');
 });
 
 //--------------------end shop--------------------------------
@@ -168,4 +151,4 @@ Route::group(['prefix'=>'shop'], function (){
 
 
 
-//--------------------------------------------------------end backend.shop----------------------------------------------------------
+

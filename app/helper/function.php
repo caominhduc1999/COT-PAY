@@ -6,8 +6,8 @@
  {  
     if($errors->has($name))
     return '
-            <div class="alert alert-warning alert-dismissible fade show">
-                <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <div class="alert alert-danger alert-dismissible fade show" style="padding: 0; background: none; border: none">
+                <button type="button" class="close" data-dismiss="alert" style="padding: 0">&times;</button>
                 <strong>'.$errors->first($name).'</strong>
             </div>
            ';

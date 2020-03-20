@@ -3,7 +3,7 @@
 	Đăng nhập
 @endsection
 @section('content')
-	<form action="{{route('frontend.post.login')}}" method="post" id="myForm">
+	<form action="{{route('login.shop.post')}}" method="post" id="myForm">
 		@csrf
 		<div class="choose-wallet form-login" style="border: 1px solid #00000040;">
 			<div class="title-complete background-login">
