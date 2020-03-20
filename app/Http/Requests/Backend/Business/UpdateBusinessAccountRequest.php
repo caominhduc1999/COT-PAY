@@ -13,7 +13,7 @@ class UpdateBusinessAccountRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,16 @@ class UpdateBusinessAccountRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'name_company' =>  'required',
+            'name_represent'      =>  'required',
+            'email'     =>  'required|email|unique:business,email,'.$this->id.'',
+            'phone'     =>  'required|regex:/(0)[0-9]/|not_regex:/[a-z]/|size:10|unique:business,phone,'.$this->id.'',
+            'address'   =>  'required|max:180',
+            'tax_code'   =>  'required',
+            'image'     =>  'nullable|image',
+            'city'      =>  'nullable',
+            'district'  =>  'nullable',
+            'ward'      =>  'nullable',
         ];
     }
 }
