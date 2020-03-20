@@ -26,9 +26,9 @@
         <nav class="nav">
             <ul>
                 <li><a href="">Home</a></li>
-                <li><a href="#">Merchant</a></li>
-                <li><a href="#">Customer</a></li>
-                <li><a href="#">Business</a></li>
+                <li><a href="{{ route('login.shop.get') }}">Merchant</a></li>
+                <li><a href="{{ route('login.user.get') }}">Customer</a></li>
+                <li><a href="{{ route('login.business.get') }}">Business</a></li>
                 <li><a href="about">About</a></li>
                 <li><a href="contact">Contact</a></li>
             </ul>
@@ -37,9 +37,9 @@
             <div id="mySidepanel" class="sidepanel">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
                 <a href="">Home</a>
-                <a href="#">Merchant</a>
-                <a href="#">Customer</a>
-                <a href="#">Business</a>
+                <a href="{{ route('login.shop.get') }}">Merchant</a>
+                <a href="{{ route('login.user.get') }}">Customer</a>
+                <a href="{{ route('login.business.get') }}">Business</a>
                 <a href="about">About</a>
                 <a href="contact">Contact</a>
                 <a href="#"><i class="fa fa-user-circle"></i> Login</a>

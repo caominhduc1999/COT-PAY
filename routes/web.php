@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 //-----------------------------------------------begin frontend------------------------------------------------------
 
 Route::get('/', function () {
-    return view('frontend.home');
+    return view('frontend.pages.home');
 });
 
 
@@ -30,14 +30,14 @@ Route::group(['prefix'  =>  'login'], function () {
        return view('choose_login_form')->name('login');
     });
 
-    Route::get('user', 'Backend\User\LoginController@getLogin')->name('login.user.get');
-    Route::post('user', 'Backend\User\LoginController@postLogin')->name('login.user.post');
+    Route::get('customer', 'Backend\User\LoginController@getLogin')->name('login.user.get');
+    Route::post('customer', 'Backend\User\LoginController@postLogin')->name('login.user.post');
 
     Route::get('shop', 'Backend\Shop\LoginController@getLogin')->name('login.shop.get');
     Route::post('shop', 'Backend\Shop\LoginController@postLogin')->name('login.shop.post');
 
     Route::get('business', 'Backend\Business\LoginController@getLogin')->name('login.business.get');
-    Route::post('business', 'Backend\Business\LoginController@postLogin')->name('login.business.post');
+    Route::post('business', 'B  ckend\Business\LoginController@postLogin')->name('login.business.post');
 });
 
 
@@ -60,12 +60,12 @@ Route::group(['prefix' => 'register'], function () {
 
 
 Route::get('contact', function () {
-    return view('frontend.contact');
+    return view('frontend.pages.contact');
 });
 
 
 Route::get('/about', function () {
-    return view('frontend.about');
+    return view('frontend.pages.about');
 });
 
 // load quan huyen
@@ -147,7 +147,28 @@ Route::group(['prefix'=>'shop'], function (){
 
 //--------------------end shop--------------------------------
 
+//--------------------------begin customer-------------------------
+Route::group(['prefix' => 'customer'], function () {
 
+    Route::get('', function () {
+        return view('Backend/User/index-user');
+    })->name('customer.index');
+
+});
+
+//--------------------------end customer-------------------
+
+
+
+//----------------------begin bussiness------------------
+Route::group(['prefix' => 'business'], function () {
+
+    Route::get('', function () {
+        return view('Backend/Business/index-business');
+    })->name('business.index');
+
+});
+//--------------------------end bussiness-------------------
 
 
 

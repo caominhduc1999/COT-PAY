@@ -25,8 +25,9 @@
     </script>
 </head>
 <body>
-
-
+    {!! ShowSuccess('success') !!}
+    {!! ShowDanger('danger') !!}
+    
     @include('frontend.layouts.header')
     @yield('content')
     @include('frontend.layouts.footer')
@@ -107,6 +108,7 @@
                     });
             })
         })
+
     </script>
     </body>
 </html>
