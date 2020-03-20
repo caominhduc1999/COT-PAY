@@ -19,7 +19,7 @@
 						<div class="main-menu">
 							<div class="menu-label-span ml-3">
 								<span>S12345678889</span>
-								<span>Gia dung Tiger</span>
+								<span>Customer</span>
 								<span>5%</span>
 								<span><i class="fa fa-star"></i> 4.86</span>
 								<span>Bonus: 1.250.000</span>
