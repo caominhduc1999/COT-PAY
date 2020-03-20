@@ -3,12 +3,13 @@
 namespace App\Http\Controllers\Backend\Shop;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Backend\Shop\StoreShopRequest;
-use App\Http\Requests\Backend\Shop\UpdateShopRequest;
+use App\Http\Requests\Backend\Shop\ChangePasswordRequest;
+use App\Http\Requests\Backend\Shop\UpdateShopAccountRequest;
+use App\Models\Backend\Shop\Shop;
 use App\Repositories\Shop\ShopRepositoryInterface;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 class ShopController extends Controller
 {
@@ -21,8 +22,7 @@ class ShopController extends Controller
 
     public function index()
     {
-        $data = $this->shopRepository->list();
-        dd($data);
+        return view('backend.shop.index-shop');
     }
 
 
@@ -46,8 +46,7 @@ class ShopController extends Controller
 
     public function edit($id)
     {
-        $shop = $this->shopRepository->show($id);
-        return view('backend.shop.thong-tin-tai-khoan', compact('shop'));
+
     }
 
     public function update(Request $request, $id)
@@ -56,20 +55,51 @@ class ShopController extends Controller
     }
 
 
-
     public function destroy($id)
     {
 
     }
 
-    public function updateAccount(Request $request, $id, UpdateShopRequest $updateShopRequest)
+    public function getUpdateAccount()
     {
-        $data = $request->validate($updateShopRequest->rules(), $updateShopRequest->messages());
+        $shop = $this->shopRepository->show(Auth::guard('shops')->user()->id);
+        return view('backend.shop.account_info', compact('shop'));
+    }
 
-        $this->shopRepository->update($id, $data);
+    public function postUpdateAccount(UpdateShopAccountRequest $request)
+    {
+        $data = $request->all();
+        $this->shopRepository->update(Auth::guard('shops')->user()->id, $data);
 
         return redirect()->back()->with('notify', 'Cập nhật thành công');
     }
 
+    public function getChangePassword()
+    {
+        return view('backend.shop.change_password');
+    }
 
+    public function postChangePassword(ChangePasswordRequest $request)
+    {
+//        dd(Hash::check($request->password_old, Auth::guard('shops')->user()->password)  );
+        if (! Hash::check(Auth::guard('shops')->user()->password,$request->password_old))
+        {
+            return redirect()->back()->with('notify','Sai mật khẩu cũ. Vui lòng thử lại');
+        }
+        else
+        {
+            $data = $request->all();
+            $data['password'] = bcrypt($request->password);
+
+            $this->shopRepository->update(Auth::guard('shops')->user()->id, $data);
+
+            return redirect()->back()->with('notify', 'Cập nhật thành công');
+        }
+    }
+
+    public function logout()
+    {
+        Auth::guard('shops')->logout();
+        return redirect(route('login.shop.get'));
+    }
 }

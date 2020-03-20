@@ -1,6 +1,6 @@
 @extends('backend.layouts.master')
 @section('content')
-
+    @include('backend.shop.sidebar')
     <!--main-->
     <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
         <div class="row">
@@ -13,8 +13,10 @@
                 <li class="active">Thông tin tài khoản</li>
             </ol>
         </div>
-
-        <div class="row" style="margin-top: 15px;">
+        <form action="{{route('shop.account.post',['id'=>\Illuminate\Support\Facades\Auth::guard('shops')->user()->id])}}" method="post">
+            @csrf
+            @method('put')
+            <div class="row" style="margin-top: 15px;">
             <div class="col-xs-12 col-md-12 col-lg-12">
                 <div class="panel panel-primary">
                     <div class="panel-body" style="height: 500px;">
@@ -23,16 +25,13 @@
                                 <img src="asset/images/a1.jpg" width="70" height="70">
                                 <div class="menu-setting-img-content" style="margin-bottom:50px">
                                     <h4>{{$shop->name_shop}}</h4>
-                                    <span>{{$shop->email}}</span>
+                                    <span>{{$shop->code}}</span>
                                 </div>
                             </div>
                             <div class="menu-setting-content mt-5">
                                 <div class="row" style="margin: 0">
                                     <div class="col-md-1"></div>
                                     <form action="{{route('shop.update',['id'=>$shop->id])}}" method="post">
-                                        @foreach ($errors->all() as $error)
-                                            <li>{{ $error }}</li>
-                                        @endforeach
                                         @csrf
                                         @method('put')
                                         <div class="col-md-8">
@@ -133,6 +132,7 @@
 
 
         </div>
+        </form>
     </div>
 
     <!--end main-->

@@ -33,11 +33,6 @@
 
     <!-- menu mobile -->
 
-
-    <!-- sidebar left-->
-    @include('backend.layouts.sidebar')
-    <!--/. end sidebar left-->
-
     @yield('content')
 
     @include('backend.layouts.footer')

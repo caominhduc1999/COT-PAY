@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Backend\Shop;
 
 use App\Http\Controllers\Controller;
+use App\Models\Backend\Shop\Shop;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -14,9 +15,9 @@ class LoginController extends Controller
 
         if (Auth::guard('shops')->check())
         {
-            return view('backend.shop.index-shop');
+            return redirect(route('shop.index'));
         }
-        return view('frontend.dang-nhap');
+        return view('frontend.shop.login_shop');
     }
 
     public function postLogin(){
@@ -24,7 +25,7 @@ class LoginController extends Controller
         $password = \request()->password;
 
         if (Auth::guard('shops')->attempt(['phone'=>$phone, 'password'=>$password], \request()->remember)){
-            return view('backend.shop.index-shop');
+            return redirect(route('shop.index'));
         }
         else{
             return redirect()->back()->with('notify','Tài khoản hoặc mật khẩu không chính xác. Vui lòng thử lại !');
@@ -35,4 +36,6 @@ class LoginController extends Controller
         Auth::guard('shops')->logout();
         return redirect(route('frontend.get.login'));
     }
+
+
 }
