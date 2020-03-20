@@ -13,7 +13,7 @@
                 <li class="active">Thông tin tài khoản</li>
             </ol>
         </div>
-        <form action="{{route('shop.account.post',['id'=>\Illuminate\Support\Facades\Auth::guard('shops')->user()->id])}}" method="post">
+        <form action="{{route('shop.account.post')}}" method="post">
             @csrf
             @method('put')
             <div class="row" style="margin-top: 15px;">
@@ -43,11 +43,7 @@
                                                     <div class="form-group">
                                                         <input type="text" class="form-control" name="name_shop" id="usr"
                                                                value="{{old('name_shop') ?? $shop->name_shop}}">
-                                                        @if ($errors->has('name_shop'))
-                                                            <div class="text text-danger">
-                                                                {{ $errors->first('name_shop') }}
-                                                            </div>
-                                                        @endif
+                                                        {!! ShowError($errors,'name_shop') !!}
                                                     </div>
                                                 </div>
                                             </div>

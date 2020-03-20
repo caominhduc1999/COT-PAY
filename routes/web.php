@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 //-----------------------------------------------begin frontend------------------------------------------------------
 
 Route::get('/', function () {
-    return view('frontend.home');
+    return view('frontend.pages.home');
 });
 
 

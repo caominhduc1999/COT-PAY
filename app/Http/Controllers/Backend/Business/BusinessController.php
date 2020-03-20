@@ -1,28 +1,27 @@
 <?php
 
-namespace App\Http\Controllers\Backend\Shop;
+namespace App\Http\Controllers\Backend\Business;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Backend\ChangePasswordRequest;
-use App\Http\Requests\Backend\Shop\UpdateShopAccountRequest;
-use App\Models\Backend\Shop\Shop;
-use App\Repositories\Shop\ShopRepositoryInterface;
+use App\Http\Requests\Backend\Business\UpdateBusinessAccountRequest;
+use App\Repositories\Business\BusinessRepositoryInterface;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Requests\Backend\ChangePasswordRequest;
 use Illuminate\Support\Facades\Hash;
 
-class ShopController extends Controller
+class BusinessController extends Controller
 {
-    private $shopRepository;
+    private $businessRepository;
 
-    public function __construct(ShopRepositoryInterface $shopRepository)
+    public function __construct(BusinessRepositoryInterface $businessRepository)
     {
-        $this->shopRepository = $shopRepository;
+        $this->businessRepository = $businessRepository;
     }
 
     public function index()
     {
-        return view('backend.shop.index-shop');
+        return view('backend.business.index-shop');
     }
 
 
@@ -62,14 +61,14 @@ class ShopController extends Controller
 
     public function getUpdateAccount()
     {
-        $shop = $this->shopRepository->show(Auth::guard('shops')->user()->id);
-        return view('backend.shop.account_info', compact('shop'));
+        $business = $this->businessRepository->show(Auth::guard('business')->user()->id);
+        return view('backend.business.account_info', compact('business'));
     }
 
-    public function postUpdateAccount(UpdateShopAccountRequest $request)
+    public function postUpdateAccount(UpdateBusinessAccountRequest $request)
     {
         $data = $request->all();
-        $this->shopRepository->update(Auth::guard('shops')->user()->id, $data);
+        $this->businessRepository->update(Auth::guard('shops')->user()->id, $data);
 
         return redirect()->back()->with('notify', 'Cập nhật thành công');
     }
@@ -81,7 +80,7 @@ class ShopController extends Controller
 
     public function postChangePassword(ChangePasswordRequest $request)
     {
-        if (! Hash::check(Auth::guard('shops')->user()->password,$request->password_old))
+        if (! Hash::check(Auth::guard('business')->user()->password,$request->password_old))
         {
             return redirect()->back()->with('notify','Sai mật khẩu cũ. Vui lòng thử lại');
         }
@@ -90,7 +89,7 @@ class ShopController extends Controller
             $data = $request->all();
             $data['password'] = bcrypt($request->password);
 
-            $this->shopRepository->update(Auth::guard('shops')->user()->id, $data);
+            $this->businessRepository->update(Auth::guard('business')->user()->id, $data);
 
             return redirect()->back()->with('notify', 'Cập nhật thành công');
         }
@@ -98,7 +97,7 @@ class ShopController extends Controller
 
     public function logout()
     {
-        Auth::guard('shops')->logout();
-        return redirect(route('login.shop.get'));
+        Auth::guard('business')->logout();
+        return redirect(route('login.business.get'));
     }
 }

@@ -21,7 +21,7 @@
 			<div class="col-xs-12 col-md-12 col-lg-12">
 				<div class="panel panel-primary">
 					<div class="panel-body" style="height: 500px;">
-						<form action="{{route('shop.change_password.post',['id'=>\Illuminate\Support\Facades\Auth::guard('shops')->user()->id])}}" method="post">
+						<form action="{{route('shop.change_password.post')}}" method="post">
 							@csrf
 							@method('put')
 							<div class="main-menu">
